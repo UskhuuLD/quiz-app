@@ -29,24 +29,22 @@ export default function HomePage() {
 
   return (
     <main className="min-h-screen bg-slate-50">
-      {/* Header */}
+     
       <header className="flex h-14 items-center justify-between border-b bg-white px-5">
         <h1 className="text-lg font-semibold">Quiz app</h1>
 
-        <div className="flex h-9 w-9 items-center justify-center rounded-full bg-pink-500 text-sm font-bold text-white">
-          user
-        </div>
+      
       </header>
 
       <div className="flex min-h-[calc(100vh-56px)]">
-        {/* Sidebar */}
+     
         <aside className="w-16 border-r bg-white">
           <div className="flex justify-center pt-5">
             <PanelLeftClose className="h-5 w-5 text-muted-foreground" />
           </div>
         </aside>
 
-        {/* Content */}
+        
         <section className="flex-1 px-5 py-8 md:px-10">
           <Card className="mx-auto w-full max-w-3xl shadow-none">
             <CardHeader className="space-y-2">
